@@ -3,235 +3,405 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ravi Raj - Software Engineer</title>
-    <meta name="description" content="Ravi Raj - Software Engineer specializing in backend development, cloud technologies, and innovative solutions.">
+    <title>Ravi Raj | Software Engineer</title>
+    <meta
+        name="description"
+        content="Ravi Raj is a Ranchi-born software engineer building thoughtful systems across web, cloud, search, and real-time products."
+    >
+    <meta name="theme-color" content="#f6f0e8" id="themeColorMeta">
+    <meta name="color-scheme" content="light dark">
+    <meta property="og:title" content="Ravi Raj | Software Engineer">
+    <meta
+        property="og:description"
+        content="Curious enough to keep asking why. Patient enough to build what comes next."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rjx7.com/">
+    <meta property="og:image" content="https://rjx7.com/icon.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ravi Raj | Software Engineer">
+    <meta
+        name="twitter:description"
+        content="Curious enough to keep asking why. Patient enough to build what comes next."
+    >
+    <meta name="twitter:image" content="https://rjx7.com/icon.jpg">
+    <link rel="canonical" href="https://rjx7.com/">
 
-    <!-- Preload critical fonts for performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&amp;family=Syne:wght@500;600;700;800&amp;display=swap"
+        rel="stylesheet"
+    >
 
-    <!-- Favicon -->
     <link rel="icon" href="favicon.ico">
-
-    <!-- Link to external CSS file -->
+    <link rel="apple-touch-icon" href="icon.jpg">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<!-- Animated background for visual appeal -->
-<div class="animated-bg"></div>
+    <a class="skip-link" href="#mainContent">Skip to content</a>
 
-<!-- Floating particles container -->
-<div class="particles" id="particles"></div>
-
-<!-- Fixed header with glassmorphism effect -->
-<header class="header">
-    <nav class="nav container">
-        <a href="#home" class="logo" aria-label="Ravi Raj - Home">RJX7</a>
-
-        <!-- Desktop navigation -->
-        <ul class="nav-links">
-            <li><a href="#home" class="nav-link">Home</a></li>
-            <li><a href="#about" class="nav-link">About</a></li>
-            <li><a href="#skills" class="nav-link">Skills</a></li>
-            <li><a href="#projects" class="nav-link">Projects</a></li>
-            <li><a href="#contact" class="nav-link">Contact</a></li>
-            <li><a href="https://rjx7.blogspot.com/" target="_blank" rel="noopener noreferrer" class="nav-link">Blog</a></li>
-        </ul>
-
-        <!-- Mobile menu toggle -->
-        <button class="menu-toggle" aria-label="Toggle mobile menu" id="menuToggle">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-    </nav>
-</header>
-
-<main>
-    <!-- Hero section with gradient text and typewriter effect -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <p class="hero-greeting">Hello, I'm</p>
-                <h1 class="hero-title">Ravi Raj</h1>
-                <p class="hero-subtitle">Software Engineer passionate about building innovative solutions and exploring the depths of technology</p>
-
-                <!-- Typewriter effect container -->
-                <div class="typewriter-container">
-                    <span class="typewriter" id="typewriter"></span>
-                    <span class="cursor"></span>
-                </div>
-
-                <!-- Call-to-action buttons -->
-                <div class="hero-cta">
-                    <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About section with improved layout -->
-    <section id="about" class="section animate-on-scroll">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">About Me</h2>
-            </div>
-            <div class="about-profile-image-wrapper">
-                <img src="mypic.jpeg" alt="Ravi Raj - Software Engineer" class="profile-image" />
-            </div>
-            <div class="about-content">
-                <p>I'm Ravi Raj (रवि राज), an engineer and a curious human being. I grew up in Ranchi, Jharkhand, India, and was born on September 8, 1996. I speak and write both Hindi and English fluently.</p>
-                <p>I love exploring new places and websites. I enjoy talking about technology, philosophy, cricket, and music. I believe everyone should live life their own way and make the most of it while it lasts.</p>
-                <p>My journey with technology started at age 9 when I got my first computer. I played games like GTA Vice City and IGI, but I also spent hours drawing mountains, rivers, and houses in MS Paint. My real interest in engineering began when I learned Logo programming in school.</p>
-                <p>It amazed me that computers simply follow instructions. This realization pushed me to understand technology more deeply and pursue engineering. I struggled at first with simple programs like Binary Search, but breaking problems into smaller parts and staying curious helped me learn the art of programming.</p>
-                <p>Since then, I've worked with a wide range of technologies. I've built applications in Java and React, worked with Elasticsearch, and designed cloud-native systems using Docker and Kubernetes. I have experience with secure authentication using OAuth and SSO, including Azure AD, and have built real-time features with WebSockets. I enjoy solving tough problems and building things from scratch.</p>
-                <p>My work isn't just about code. I like getting to the root of tricky issues, joining customer calls, and working with my team to brainstorm, test, and experiment. I've mentored new developers and helped friends get started in programming. I believe a good team is built on trust, a sense of humor, and the courage to ask "why not?" as often as "why?"</p>
-                <p>During college, I won tech quizzes and later, hackathons at work. But what I enjoy most is learning new things and sharing that excitement with others. I like to ask open-ended questions, think deeply, and never settle for surface-level answers. I value clear thinking, careful work, and a healthy dose of skepticism.</p>
-                <p>I am comfortable with uncertainty and like to find new ways to solve problems. I enjoy connecting with everyone involved in a project, from engineers to stakeholders. Whether I'm tracking down a bug or coming up with a new idea, I bring independence, initiative, and a sense of fun to my work.</p>
-                <p>If you're looking for someone who is technically strong, reliable, and genuinely passionate about building great things and great teams, let's connect. I'm always ready for a new challenge.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills section with modern card design -->
-    <section id="skills" class="section animate-on-scroll">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Skills & Expertise</h2>
-                <p class="section-subtitle">Technologies and tools I work with</p>
-            </div>
-
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <div class="skill-icon">💻</div>
-                    <h3 class="skill-title">Programming</h3>
-                    <ul class="skill-list">
-                        <li>Java/Python</li>
-                        <li>C/C++</li>
-                        <li>JavaScript</li>
-                    </ul>
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-icon">🌐</div>
-                    <h3 class="skill-title">Web Development</h3>
-                    <ul class="skill-list">
-                        <li>HTML/CSS</li>
-                        <li>React</li>
-                        <li>Node.js</li>
-                        <li>Spring Framework</li>
-                    </ul>
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-icon">🗄️</div>
-                    <h3 class="skill-title">Data & Search</h3>
-                    <ul class="skill-list">
-                        <li>MySQL/PostgreSQL</li>
-                        <li>Apache Kafka</li>
-                        <li>Solr/ElasticSearch</li>
-                        <li>Redis</li>
-                    </ul>
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-icon">☁️</div>
-                    <h3 class="skill-title">DevOps & Cloud</h3>
-                    <ul class="skill-list">
-                        <li>Docker/Kubernetes</li>
-                        <li>CI/CD/Jenkins</li>
-                        <li>AWS/Azure/OpenShift</li>
-                        <li>Infrastructure as Code</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects section with enhanced cards -->
-    <section id="projects" class="section animate-on-scroll">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">Some of the work I'm proud of</p>
-            </div>
-
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3 class="project-title">E-commerce Platform</h3>
-                        <p class="project-description">
-                            Contributed to the payment and checkout flow of Wiley.com, designing and implementing multiple payment microservices and WebSocket clients. Collaborated with chief architects and product managers across the US, UK, and China, providing technical expertise to align solutions with business needs.
-                        </p>
-                        <a href="https://wiley.com" target="_blank" rel="noopener noreferrer" class="project-link">
-                            View Project →
-                        </a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3 class="project-title">Content Management System</h3>
-                        <p class="project-description">
-                            Designed and developed features for a cloud-native, high-performance product integrating AI, OCR, and advanced search capabilities. Optimized CI/CD pipelines, improved search functionality, and mitigated security vulnerabilities in distributed load management.
-                        </p>
-                        <a href="https://www.rocketsoftware.com/products/rocket-mobius" target="_blank" rel="noopener noreferrer" class="project-link">
-                            View Project →
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact section with social links -->
-    <section id="contact" class="section animate-on-scroll">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Get In Touch</h2>
-                <p class="section-subtitle">Let's connect and build something amazing together</p>
-            </div>
-
-            <div class="contact-content">
-                <p class="contact-description">
-                    Whether it's Art, Technology, Philosophy, or Life, I'm always up for a discussion. If you're stuck with complex engineering problems, I'd love to help with troubleshooting and brainstorming solutions. I'm open to collaborating on new projects, innovative ideas, and groundbreaking inventions.
-                </p>
-
-                <div class="social-links">
-                    <a href="https://linkedin.com/in/ravirajx7" target="_blank" rel="noopener noreferrer" class="social-link">
-                        <span>💼</span>
-                        LinkedIn
-                    </a>
-                    <a href="https://github.com/ravirajx7" target="_blank" rel="noopener noreferrer" class="social-link">
-                        <span>🐙</span>
-                        GitHub
-                    </a>
-                    <a href="https://x.com/ravirajx7" target="_blank" rel="noopener noreferrer" class="social-link">
-                        <span>🐦</span>
-                        Twitter
-                    </a>
-                    <a href="mailto:raviraj@gmail.com" class="social-link">
-                        <span>✉️</span>
-                        Email
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-</main>
-
-<!-- Footer with minimal design -->
-<footer class="footer">
-    <div class="container">
-        <div class="footer-content">
-            <p>Built with AI and lots of creative prompt engineering by Ravi Raj </p>
-        </div>
+    <div class="cursor" aria-hidden="true">
+        <span class="cursor__ring"></span>
+        <span class="cursor__dot"></span>
     </div>
-</footer>
 
-<!-- Link to external JavaScript file -->
-<script src="script.js"></script>
+    <header class="site-header" id="top">
+        <nav class="site-nav" aria-label="Primary navigation">
+            <a class="brand" href="#hero" aria-label="Ravi Raj home">
+                <span class="brand__mark">RJ</span>
+                <span class="brand__text">Ravi Raj</span>
+            </a>
+
+            <div class="nav-actions">
+                <button
+                    class="theme-toggle"
+                    id="themeToggle"
+                    type="button"
+                    aria-label="Theme setting: Auto. Activate to cycle through Light, Dark, and Auto."
+                >
+                    <span class="theme-toggle__icon" id="themeToggleIcon" aria-hidden="true"></span>
+                    <span class="theme-toggle__label" id="themeToggleLabel">Auto</span>
+                </button>
+
+                <button
+                    class="menu-toggle"
+                    id="menuToggle"
+                    type="button"
+                    aria-expanded="false"
+                    aria-controls="siteMenu"
+                    aria-label="Open navigation menu"
+                >
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+            <div class="menu-panel" id="siteMenu">
+                <ul class="menu-list">
+                    <li><a class="nav-link is-active" href="#hero">Home</a></li>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#skills">Skills</a></li>
+                    <li><a class="nav-link" href="#projects">Projects</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                    <li>
+                        <a
+                            class="nav-link nav-link--external"
+                            href="https://rjx7.blogspot.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Blog
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="mainContent">
+        <!-- Hero -->
+        <section class="hero section-observed" id="hero">
+            <div class="section-frame">
+                <p class="eyebrow reveal">Software Engineer</p>
+
+                <div class="hero__layout">
+                    <div class="hero__headline">
+                        <h1 class="hero__title" aria-label="Ravi Raj">
+                            <span class="hero__line"><span>Ravi</span></span>
+                            <span class="hero__line"><span>Raj <em>रवि राज</em></span></span>
+                        </h1>
+                        <p class="hero__dek reveal">
+                            Curious enough to keep asking why. Patient enough to build what comes next.
+                        </p>
+                    </div>
+
+                    <aside class="hero__aside reveal" aria-label="Quick details">
+                        <p>Born September 8, 1996 in Ranchi, Jharkhand, India.</p>
+                        <p>Builds across applications, search, cloud-native systems, and real-time products.</p>
+                        <p>Speaks Hindi and English.</p>
+                    </aside>
+                </div>
+
+                <div class="hero__footer reveal">
+                    <a class="hero__scroll" href="#about">Read the story</a>
+                    <p class="hero__topics">Technology / Philosophy / Cricket / Music</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section section-observed" id="about">
+            <div class="section-frame">
+                <div class="section-heading reveal">
+                    <p class="section-label">About</p>
+                    <h2 class="section-title">
+                        An engineer shaped by curiosity, patience, and the habit of going deeper than the surface.
+                    </h2>
+                </div>
+
+                <div class="about">
+                    <div class="about__intro">
+                        <div class="about__lead reveal">
+                            <p>
+                                I'm Ravi Raj (रवि राज), an engineer and a curious human being. I grew up in Ranchi,
+                                Jharkhand, India. I love exploring new places and websites. I enjoy talking about
+                                technology, philosophy, cricket, and music. I believe everyone should live life their
+                                own way and make the most of it while it lasts.
+                            </p>
+                        </div>
+
+                        <figure class="about__photo reveal">
+                            <img
+                                src="mypic.jpeg"
+                                alt="Portrait of Ravi Raj"
+                                width="400"
+                                height="400"
+                                loading="lazy"
+                                decoding="async"
+                            >
+                            <figcaption>Born September 8, 1996. Ranchi, Jharkhand, India. Hindi and English.</figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="about__beats">
+                        <article class="story-beat reveal">
+                            <p class="story-beat__index">01</p>
+                            <div class="story-beat__content">
+                                <h3>Age 9, one first computer, and the thrill of making a screen obey.</h3>
+                                <p>
+                                    My journey with technology started at age 9 when I got my first computer. I played
+                                    games like GTA Vice City and IGI, but I also spent hours drawing mountains, rivers,
+                                    and houses in MS Paint. My real interest in engineering began when I learned Logo
+                                    programming in school.
+                                </p>
+                            </div>
+                        </article>
+
+                        <blockquote class="pull-quote reveal">
+                            It amazed me that computers simply follow instructions.
+                        </blockquote>
+
+                        <article class="story-beat reveal">
+                            <p class="story-beat__index">02</p>
+                            <div class="story-beat__content">
+                                <h3>Programming became a craft once hard problems could be broken into smaller ones.</h3>
+                                <p>
+                                    That realization pushed me to understand technology more deeply and pursue
+                                    engineering. I struggled at first with simple programs like Binary Search, but
+                                    breaking problems into smaller parts and staying curious helped me learn the art of
+                                    programming.
+                                </p>
+                                <p>
+                                    Since then, I've worked with a wide range of technologies. I've built applications
+                                    in Java and React, worked with Elasticsearch, and designed cloud-native systems
+                                    using Docker and Kubernetes. I have experience with secure authentication using
+                                    OAuth and SSO, including Azure AD, and have built real-time features with
+                                    WebSockets. I enjoy solving tough problems and building things from scratch.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="story-beat reveal">
+                            <p class="story-beat__index">03</p>
+                            <div class="story-beat__content">
+                                <h3>The work matters, but so does the room you build around the work.</h3>
+                                <p>
+                                    My work isn't just about code. I like getting to the root of tricky issues, joining
+                                    customer calls, and working with my team to brainstorm, test, and experiment. I've
+                                    mentored new developers and helped friends get started in programming. I believe a
+                                    good team is built on trust, a sense of humor, and the courage to ask "why not?" as
+                                    often as "why?"
+                                </p>
+                                <p>
+                                    During college, I won tech quizzes and later, hackathons at work. But what I enjoy
+                                    most is learning new things and sharing that excitement with others. I like to ask
+                                    open-ended questions, think deeply, and never settle for surface-level answers. I
+                                    value clear thinking, careful work, and a healthy dose of skepticism.
+                                </p>
+                                <p>
+                                    I am comfortable with uncertainty and like to find new ways to solve problems. I
+                                    enjoy connecting with everyone involved in a project, from engineers to
+                                    stakeholders. Whether I'm tracking down a bug or coming up with a new idea, I bring
+                                    independence, initiative, and a sense of fun to my work.
+                                </p>
+                                <p>
+                                    If you're looking for someone who is technically strong, reliable, and genuinely
+                                    passionate about building great things and great teams, let's connect. I'm always
+                                    ready for a new challenge.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section section-observed" id="skills">
+            <div class="section-frame">
+                <div class="section-heading reveal">
+                    <p class="section-label">Skills</p>
+                    <h2 class="section-title">
+                        Breadth with structure: product thinking, system design, and the patience to make details hold.
+                    </h2>
+                </div>
+
+                <div class="skills reveal">
+                    <p class="skills__intro">
+                        Since then, I've worked with a wide range of technologies across application engineering,
+                        search, cloud-native infrastructure, and real-time systems.
+                    </p>
+
+                    <article class="skill-row">
+                        <p class="skill-row__label">Programming</p>
+                        <p class="skill-row__items">Java / Python <span></span> C / C++ <span></span> JavaScript</p>
+                    </article>
+
+                    <article class="skill-row">
+                        <p class="skill-row__label">Web</p>
+                        <p class="skill-row__items">
+                            HTML / CSS <span></span> React <span></span> Node.js <span></span> Spring Framework
+                        </p>
+                    </article>
+
+                    <article class="skill-row">
+                        <p class="skill-row__label">Data &amp; Search</p>
+                        <p class="skill-row__items">
+                            MySQL / PostgreSQL <span></span> Apache Kafka <span></span> Solr / Elasticsearch
+                            <span></span> Redis
+                        </p>
+                    </article>
+
+                    <article class="skill-row">
+                        <p class="skill-row__label">DevOps &amp; Cloud</p>
+                        <p class="skill-row__items">
+                            Docker / Kubernetes <span></span> CI / CD / Jenkins <span></span> AWS / Azure /
+                            OpenShift <span></span> Infrastructure as Code
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section section-observed" id="projects">
+            <div class="section-frame">
+                <div class="section-heading reveal">
+                    <p class="section-label">Projects</p>
+                    <h2 class="section-title">
+                        Two examples of the kind of work Ravi enjoys most: high-stakes systems, collaboration, and
+                        careful execution.
+                    </h2>
+                </div>
+
+                <div class="projects">
+                    <article class="project-card reveal">
+                        <div class="project-card__index">01</div>
+                        <div class="project-card__content">
+                            <p class="project-card__eyebrow">E-commerce Platform</p>
+                            <h3>Wiley.com payment and checkout systems.</h3>
+                            <p>
+                                Contributed to the payment and checkout flow of Wiley.com, designing and implementing
+                                multiple payment microservices and WebSocket clients. Collaborated with chief architects
+                                and product managers across the US, UK, and China, providing technical expertise to
+                                align solutions with business needs.
+                            </p>
+                            <a href="https://wiley.com" target="_blank" rel="noopener noreferrer">
+                                View project
+                                <span aria-hidden="true">→</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card project-card--inverse reveal">
+                        <div class="project-card__index">02</div>
+                        <div class="project-card__content">
+                            <p class="project-card__eyebrow">Content Management System</p>
+                            <h3>Cloud-native search, AI, and OCR for enterprise content.</h3>
+                            <p>
+                                Designed and developed features for a cloud-native, high-performance product
+                                integrating AI, OCR, and advanced search capabilities. Optimized CI/CD pipelines,
+                                improved search functionality, and mitigated security vulnerabilities in distributed
+                                load management.
+                            </p>
+                            <a
+                                href="https://www.rocketsoftware.com/products/rocket-mobius"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                View project
+                                <span aria-hidden="true">→</span>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section section-observed" id="contact">
+            <div class="section-frame">
+                <div class="section-heading reveal">
+                    <p class="section-label">Contact</p>
+                    <h2 class="section-title">
+                        If you're looking for someone technically strong, reliable, and genuinely passionate about
+                        building great things and great teams, let's connect.
+                    </h2>
+                </div>
+
+                <div class="contact reveal">
+                    <p class="contact__lead">
+                        I enjoy talking about technology, philosophy, cricket, and music. I'm always ready for a new
+                        challenge, a good question, or a difficult problem worth solving with care.
+                    </p>
+
+                    <div class="contact__links">
+                        <a class="contact-link" href="mailto:raviraj.x7@gmail.com">
+                            <span class="contact-link__label">Email</span>
+                            <span class="contact-link__value">raviraj.x7@gmail.com</span>
+                        </a>
+                        <a
+                            class="contact-link"
+                            href="https://linkedin.com/in/ravirajx7"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <span class="contact-link__label">LinkedIn</span>
+                            <span class="contact-link__value">linkedin.com/in/ravirajx7</span>
+                        </a>
+                        <a
+                            class="contact-link"
+                            href="https://github.com/ravirajx7"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <span class="contact-link__label">GitHub</span>
+                            <span class="contact-link__value">github.com/ravirajx7</span>
+                        </a>
+                        <a class="contact-link" href="https://x.com/ravirajx7" target="_blank" rel="noopener noreferrer">
+                            <span class="contact-link__label">X</span>
+                            <span class="contact-link__value">x.com/ravirajx7</span>
+                        </a>
+                        <a
+                            class="contact-link"
+                            href="https://rjx7.blogspot.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <span class="contact-link__label">Blog</span>
+                            <span class="contact-link__value">rjx7.blogspot.com</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Ravi Raj · Software Engineer · Built in plain HTML, CSS, and JavaScript.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
